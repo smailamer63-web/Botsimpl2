@@ -2,7 +2,7 @@ import requests
 import time
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("BOT1")
 URL = f"https://api.telegram.org/bot{TOKEN}/"
 
 def get_updates(offset=None):
